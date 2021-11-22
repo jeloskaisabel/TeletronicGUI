@@ -1,17 +1,25 @@
-﻿
+﻿/*
+ * Created by SharpDevelop.
+ * User: Jeloska Chavez
+ * Date: 22/11/2021
+ * Time: 16:37
+ * 
+ * To change this template use Tools | Options | Coding | Edit Standard Headers.
+ */
 using System;
-using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 
 namespace TeletronicGUI
 {
-
-	public partial class MainForm : Form
+	/// <summary>
+	/// Description of RegistroTecnicosForm.
+	/// </summary>
+	public partial class RegistroTecnicosForm : Form
 	{
-		Cliente c = new Cliente();
-		ArchivoClientes ac = new ArchivoClientes("datosClientes.dat");
-		public MainForm()
+		Tecnico t = new Tecnico();
+		ArchivoTecnicos at = new ArchivoTecnicos("datosTecnicos.dat");
+		public RegistroTecnicosForm()
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
@@ -23,43 +31,36 @@ namespace TeletronicGUI
 			//
 		}
 		
-		void MainFormLoad(object sender, EventArgs e)
-		{
-			
-		}
-		
-		void TextBoxNombreTextChanged(object sender, EventArgs e)
-		{
-			
-		}
-		
 		void ButtonSalirClick(object sender, EventArgs e)
 		{
-			Application.Exit();
-			
+			Application.Exit();	
 		}
+		
 		
 		void ButtonRegistrarClick(object sender, EventArgs e)
 		{
-			c.setNombre(textBoxNombre.Text);
-			c.setApellidos(textBoxApellidos.Text);
-			c.setCi(Convert.ToInt32(textBoxCi.Text));
-			c.setNroCelular(Convert.ToInt32(textBoxCelular.Text));
-			string id = textBoxCi.Text + textBoxNombre.Text.Substring(0)+textBoxApellidos.Text.Substring(0)+"-C";
-			c.setIdCliente(id);
+			t.setNombre(textBoxNombre.Text);
+			t.setApellidos(textBoxApellidos.Text);
+			t.setCi(Convert.ToInt32(textBoxCi.Text));
+			t.setNroCelular(Convert.ToInt32(textBoxCelular.Text));
+			t.setEspecialidad(textBoxEspecialidad.Text);
+			string id = textBoxCi.Text + textBoxNombre.Text.Substring(0)+textBoxApellidos.Text.Substring(0)+"-T";
+			t.setIdTecnico(id);
 			labelId.Text = id;
-			ac.adicionar(c);
-			
+			at.adicionar(t);
 		}
+		
+		
 		void ButtonNuevoClick(object sender, EventArgs e)
 		{
 			textBoxNombre.Clear();
 			textBoxApellidos.Clear();
 			textBoxCi.Clear();
 			textBoxCelular.Clear();
+			textBoxEspecialidad.Clear();
 			labelId.Text = "";
-			
 		}
+
 		
 		void TextBoxNombreKeyPress(object sender, KeyPressEventArgs e)
 		{
@@ -100,7 +101,6 @@ namespace TeletronicGUI
 			
 		}
 		
-		
 		void TextBoxCelularKeyPress(object sender, KeyPressEventArgs e)
 		{
 			if(e.Handled==char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar)){
@@ -110,6 +110,20 @@ namespace TeletronicGUI
 			else{
 				errorProvider4.SetError(advCelular, "");
 				advCelular.Text = "";
+			}
+			
+			
+		}
+		
+		void TextBoxEspecialidadKeyPress(object sender, KeyPressEventArgs e)
+		{
+			if(e.Handled==char.IsLetter(e.KeyChar) && !char.IsControl(e.KeyChar)){
+				errorProvider5.SetError(advEspecialidad, "Solo caracteres");
+				advEspecialidad.Text = "Solo caracteres";
+			}
+			else{
+				errorProvider5.SetError(advEspecialidad, "");
+				advEspecialidad.Text = "";
 			}
 			
 		}

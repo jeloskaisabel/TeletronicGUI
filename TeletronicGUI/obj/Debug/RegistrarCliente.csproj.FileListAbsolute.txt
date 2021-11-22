@@ -1,0 +1,8 @@
+C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\TeletronicGUI\obj\Debug\RegistrarCliente.csprojResolveAssemblyReference.cache
+C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\TeletronicGUI\obj\Debug\RegistrarCliente.csproj.GenerateResource.Cache
+C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\TeletronicGUI\obj\Debug\RegistroCliente.MainForm.resources
+C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\TeletronicGUI\bin\Debug\RegistrarCliente.exe.config
+C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\TeletronicGUI\bin\Debug\RegistrarCliente.exe
+C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\TeletronicGUI\bin\Debug\RegistrarCliente.pdb
+C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\TeletronicGUI\obj\Debug\RegistrarCliente.exe
+C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\TeletronicGUI\obj\Debug\RegistrarCliente.pdb

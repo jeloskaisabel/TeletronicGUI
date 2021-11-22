@@ -1,0 +1,9 @@
+C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\TeletronicGUI\obj\Debug\TeletronicGUI.csprojResolveAssemblyReference.cache
+C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\TeletronicGUI\obj\Debug\TeletronicGUI.MainForm.resources
+C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\TeletronicGUI\obj\Debug\TeletronicGUI.csproj.GenerateResource.Cache
+C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\TeletronicGUI\bin\Debug\TeletronicGUI.exe.config
+C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\TeletronicGUI\bin\Debug\TeletronicGUI.exe
+C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\TeletronicGUI\bin\Debug\TeletronicGUI.pdb
+C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\TeletronicGUI\obj\Debug\TeletronicGUI.exe
+C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\TeletronicGUI\obj\Debug\TeletronicGUI.pdb
+C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\TeletronicGUI\obj\Debug\TeletronicGUI.RegistroTecnicosForm.resources
