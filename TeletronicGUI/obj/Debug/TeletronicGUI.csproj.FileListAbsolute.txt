@@ -7,3 +7,5 @@ C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\Teletronic
 C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\TeletronicGUI\obj\Debug\TeletronicGUI.exe
 C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\TeletronicGUI\obj\Debug\TeletronicGUI.pdb
 C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\TeletronicGUI\obj\Debug\TeletronicGUI.RegistroTecnicosForm.resources
+C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\TeletronicGUI\obj\Debug\TeletronicGUI.RegistroServicio.resources
+C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\TeletronicGUI\obj\Debug\TeletronicGUI.Form1.resources
