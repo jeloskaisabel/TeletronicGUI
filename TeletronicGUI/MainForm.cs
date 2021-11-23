@@ -113,5 +113,20 @@ namespace TeletronicGUI
 			}
 			
 		}
+		//Divar
+		void Button1Click(object sender, EventArgs e)
+		{
+			var RegistroTecnicosForm = new RegistroTecnicosForm();
+			RegistroTecnicosForm.Show();
+				
+		}
+		
+		
+		void Button2Click(object sender, EventArgs e)
+		{
+			var RegistroServicio = new RegistroServicio();
+			RegistroServicio.Show();
+			
+		}
 	}
 }

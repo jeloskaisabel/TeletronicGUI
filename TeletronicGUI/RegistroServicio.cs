@@ -24,5 +24,11 @@ namespace TeletronicGUI
 		{
 			
 		}
+		
+		void Button2Click(object sender, EventArgs e)
+		{
+			var Form1 = new Form1();
+			Form1.Show();
+		}
 	}
 }

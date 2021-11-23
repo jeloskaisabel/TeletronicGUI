@@ -59,6 +59,8 @@ namespace TeletronicGUI
 			this.errorProvider3 = new System.Windows.Forms.ErrorProvider(this.components);
 			this.errorProvider4 = new System.Windows.Forms.ErrorProvider(this.components);
 			this.advCi = new System.Windows.Forms.Label();
+			this.button1 = new System.Windows.Forms.Button();
+			this.button2 = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.errorProvider3)).BeginInit();
@@ -229,11 +231,33 @@ namespace TeletronicGUI
 			this.advCi.Size = new System.Drawing.Size(100, 23);
 			this.advCi.TabIndex = 17;
 			// 
+			// button1
+			// 
+			this.button1.Location = new System.Drawing.Point(246, 416);
+			this.button1.Name = "button1";
+			this.button1.Size = new System.Drawing.Size(146, 33);
+			this.button1.TabIndex = 18;
+			this.button1.Text = "button1";
+			this.button1.UseVisualStyleBackColor = true;
+			this.button1.Click += new System.EventHandler(this.Button1Click);
+			// 
+			// button2
+			// 
+			this.button2.Location = new System.Drawing.Point(436, 416);
+			this.button2.Name = "button2";
+			this.button2.Size = new System.Drawing.Size(159, 33);
+			this.button2.TabIndex = 19;
+			this.button2.Text = "button2";
+			this.button2.UseVisualStyleBackColor = true;
+			this.button2.Click += new System.EventHandler(this.Button2Click);
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(784, 461);
+			this.Controls.Add(this.button2);
+			this.Controls.Add(this.button1);
 			this.Controls.Add(this.advCi);
 			this.Controls.Add(this.advCelular);
 			this.Controls.Add(this.advApellidos);
@@ -262,6 +286,8 @@ namespace TeletronicGUI
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.Button button2;
+		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.ErrorProvider errorProvider4;
 		private System.Windows.Forms.ErrorProvider errorProvider3;
 		private System.Windows.Forms.ErrorProvider errorProvider2;
