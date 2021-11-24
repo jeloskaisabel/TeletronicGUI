@@ -60,7 +60,7 @@ namespace TeletronicGUI
 			labelId.Text = "";
 			
 		}
-		
+		//Te muestra errores
 		void TextBoxNombreKeyPress(object sender, KeyPressEventArgs e)
 		{
 			if(e.Handled==char.IsLetter(e.KeyChar) && !char.IsControl(e.KeyChar)){
@@ -117,7 +117,9 @@ namespace TeletronicGUI
 		void Button1Click(object sender, EventArgs e)
 		{
 			var RegistroTecnicosForm = new RegistroTecnicosForm();
+			
 			RegistroTecnicosForm.Show();
+			
 				
 		}
 		
@@ -125,7 +127,9 @@ namespace TeletronicGUI
 		void Button2Click(object sender, EventArgs e)
 		{
 			var RegistroServicio = new RegistroServicio();
+			
 			RegistroServicio.Show();
+	
 			
 		}
 	}

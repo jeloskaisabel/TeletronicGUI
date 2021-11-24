@@ -8,4 +8,9 @@ C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\Teletronic
 C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\TeletronicGUI\obj\Debug\TeletronicGUI.pdb
 C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\TeletronicGUI\obj\Debug\TeletronicGUI.RegistroTecnicosForm.resources
 C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\TeletronicGUI\obj\Debug\TeletronicGUI.RegistroServicio.resources
-C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\TeletronicGUI\obj\Debug\TeletronicGUI.Form1.resources
+C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\TeletronicGUI\obj\Debug\TeletronicGUI.AireAcondicionado.resources
+C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\TeletronicGUI\obj\Debug\TeletronicGUI.Lavadora.resources
+C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\TeletronicGUI\obj\Debug\TeletronicGUI.Refrigerador.resources
+C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\TeletronicGUI\obj\Debug\TeletronicGUI.ReproductorDeVideo.resources
+C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\TeletronicGUI\obj\Debug\TeletronicGUI.Televisor.resources
+C:\Users\Jeloska Chavez\Documents\SharpDevelop Projects\TeletronicGUI\TeletronicGUI\obj\Debug\TeletronicGUI.EquipoDeSonido.resources

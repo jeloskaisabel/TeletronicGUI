@@ -1,11 +1,4 @@
-﻿/*
- * Created by SharpDevelop.
- * User: Jeloska Chavez
- * Date: 22/11/2021
- * Time: 16:37
- * 
- * To change this template use Tools | Options | Coding | Edit Standard Headers.
- */
+﻿
 using System;
 using System.Drawing;
 using System.Windows.Forms;

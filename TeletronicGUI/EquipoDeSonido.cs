@@ -1,8 +1,8 @@
 ﻿/*
  * Created by SharpDevelop.
  * User: Jeloska Chavez
- * Date: 22/11/2021
- * Time: 21:10
+ * Date: 24/11/2021
+ * Time: 02:46
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
@@ -13,11 +13,11 @@ using System.Windows.Forms;
 namespace TeletronicGUI
 {
 	/// <summary>
-	/// Description of Form1.
+	/// Description of EquipoDeSonido.
 	/// </summary>
-	public partial class Form1 : Form
+	public partial class EquipoDeSonido : Form
 	{
-		public Form1()
+		public EquipoDeSonido()
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
@@ -27,11 +27,6 @@ namespace TeletronicGUI
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
-		}
-		
-		void Label1Click(object sender, EventArgs e)
-		{
-			
 		}
 	}
 }

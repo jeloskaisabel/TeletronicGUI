@@ -9,9 +9,11 @@ namespace TeletronicGUI
 	{
 		private string idTecnico;
 		private string especialidad;
-		//private int nroReparaciones;
+		private Servicio[]S = new Servicio[100];
+		private int nroServicios;
 		public Tecnico():base()
 		{
+			nroServicios =0;
 		}
 		public Tecnico(string n, string a, int nc, int c,string id, string es):base(n, a, nc, c){
 			idTecnico = id;
@@ -24,6 +26,10 @@ namespace TeletronicGUI
 			especialidad = Console.ReadLine();
 			//nroReparaciones = int.Parse(Console.ReadLine());
 		}
+		public void adiServicio(Servicio x){
+			S[nroServicios] =x;
+			nroServicios++;
+		}
 		public void mostrar(){
 			base.mostrarPersona();
 			Console.WriteLine("ID Empleado: "+idTecnico+"\nEspecialidad: "+especialidad);
@@ -35,16 +41,23 @@ namespace TeletronicGUI
 			escritor.Write(ci);
 			escritor.Write(idTecnico);
 			escritor.Write(especialidad);
-			//escritor.Write(nroReparaciones);
+			escritor.Write(nroServicios);
+			for(int i = 0; i<nroServicios; i++){
+				S[i].escribirServicio(escritor);
+			}
 		}
-		public void leerEscritor(BinaryReader lector){
+		public void leerTecnico(BinaryReader lector){
 			nombre = lector.ReadString();
 			apellidos = lector.ReadString();
 			nroCelular = lector.ReadInt32();
 			ci = lector.ReadInt32();
 			idTecnico = lector.ReadString();
 			especialidad = lector.ReadString();
-			//nroReparaciones = lector.ReadInt32();		
+			nroServicios = lector.ReadInt32();
+			for(int i= 0; i<nroServicios; i++){
+				S[i] = new Servicio();
+				S[i].leerServicio(lector);
+			}
 		}
 		public string getIdTecnico(){
 			return idTecnico;

@@ -47,20 +47,38 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArchivoClientes.cs" />
-    <Compile Include="ArchivoTecnicos.cs" />
-    <Compile Include="Cliente.cs" />
-    <Compile Include="Form1.cs" />
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="AireAcondicionado.cs" />
+    <Compile Include="AireAcondicionado.Designer.cs">
+      <DependentUpon>AireAcondicionado.cs</DependentUpon>
     </Compile>
+    <Compile Include="ArchivoArtefactos.cs" />
+    <Compile Include="ArchivoClientes.cs" />
+    <Compile Include="ArchivoServicios.cs" />
+    <Compile Include="ArchivoTecnicos.cs" />
+    <Compile Include="Artefracto.cs" />
+    <Compile Include="Cliente.cs" />
+    <Compile Include="EquipoDeSonido.cs" />
+    <Compile Include="EquipoDeSonido.Designer.cs">
+      <DependentUpon>EquipoDeSonido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario.cs" />
+    <Compile Include="Lavadora.cs" />
+    <Compile Include="Lavadora.Designer.cs">
+      <DependentUpon>Lavadora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Linea.cs" />
     <Compile Include="MainForm.cs" />
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Persona.cs" />
+    <Compile Include="Pieza.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Refrigerador.cs" />
+    <Compile Include="Refrigerador.Designer.cs">
+      <DependentUpon>Refrigerador.cs</DependentUpon>
+    </Compile>
     <Compile Include="RegistroServicio.cs" />
     <Compile Include="RegistroServicio.Designer.cs">
       <DependentUpon>RegistroServicio.cs</DependentUpon>
@@ -69,23 +87,47 @@
     <Compile Include="RegistroTecnicosForm.Designer.cs">
       <DependentUpon>RegistroTecnicosForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ReproductorDeVideo.cs" />
+    <Compile Include="ReproductorDeVideo.Designer.cs">
+      <DependentUpon>ReproductorDeVideo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Servicio.cs" />
     <Compile Include="Tecnico.cs" />
+    <Compile Include="Televisor.cs" />
+    <Compile Include="Televisor.Designer.cs">
+      <DependentUpon>Televisor.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="AireAcondicionado.resx">
+      <DependentUpon>AireAcondicionado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EquipoDeSonido.resx">
+      <DependentUpon>EquipoDeSonido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lavadora.resx">
+      <DependentUpon>Lavadora.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Refrigerador.resx">
+      <DependentUpon>Refrigerador.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegistroServicio.resx">
       <DependentUpon>RegistroServicio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegistroTecnicosForm.resx">
       <DependentUpon>RegistroTecnicosForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReproductorDeVideo.resx">
+      <DependentUpon>ReproductorDeVideo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Televisor.resx">
+      <DependentUpon>Televisor.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
